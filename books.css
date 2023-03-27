@@ -1,0 +1,145 @@
+.our-blog {
+  position: relative;
+  line-height: 32px;
+}
+.value-proposition-accelerator {
+  position: relative;
+  font-size: var(--font-size-109xl);
+  line-height: 72px;
+  font-weight: 600;
+  font-family: var(--headings-text-l);
+  color: var(--color-black);
+  display: none;
+  align-items: center;
+  width: 842px;
+}
+.heading,
+.our-team-intro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 121px;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.our-team-intro {
+  font-size: var(--paragraphs-text-s-size);
+  color: var(--gray);
+  font-family: var(--paragraphs-text-s);
+}
+.image-icon1 {
+  position: relative;
+  border-radius: var(--br-5xl);
+  width: 300px;
+  height: 354px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.book12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 48px;
+}
+.book11 {
+  position: relative;
+  width: 76px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.author11 {
+  position: relative;
+  font-size: var(--paragraphs-text-s-size);
+  line-height: 32px;
+  font-family: var(--paragraphs-text-s);
+  color: var(--gray);
+}
+.team-member,
+.team-member-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.team-member-title {
+  width: 175px;
+  height: 84px;
+  flex-shrink: 0;
+  gap: var(--gap-xs);
+}
+.team-member {
+  position: absolute;
+  top: 183px;
+  left: 0;
+  gap: var(--gap-5xl);
+}
+.image-icon2 {
+  position: relative;
+  border-radius: var(--br-5xl);
+  width: 299px;
+  height: 354px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.book2 {
+  position: relative;
+  line-height: 48px;
+}
+.team-member-title1,
+.team-member1,
+.team-member2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.team-member1,
+.team-member2 {
+  position: absolute;
+  top: 183px;
+  left: 351px;
+  gap: var(--gap-5xl);
+}
+.team-member2 {
+  left: 701px;
+  width: 299px;
+}
+.books1,
+.our-team {
+  position: absolute;
+  top: 179px;
+  left: 103px;
+  width: 1000px;
+  height: 653px;
+}
+.books1 {
+  top: 46px;
+  left: 111px;
+  font-size: var(--font-size-109xl);
+  line-height: 72px;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 987px;
+  height: 167px;
+}
+.books {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 3626px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--headings-text-l-size);
+  color: var(--color-black);
+  font-family: var(--headings-text-l);
+}
